@@ -1,0 +1,43 @@
+<html>
+<body>
+    <div id="title">
+        <h1>Welcome to Ashy's website</h1>
+        <p>This is where dreams come true</p>
+        <button onclick="makeDreamComeTrue()">Make dream come true</button>
+    </div>
+</body>
+</html>
+
+<style>
+
+body {
+    background-image: url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(17, 255, 0);
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+</style>
+
+<script>
+
+function makeDreamComeTrue() {
+    document.body.style.background = 'url("https://giphy.com")';
+    document.getElementById("title").style.visibility = "hidden";
+}
+
+</script>
