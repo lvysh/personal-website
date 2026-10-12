@@ -1,17 +1,28 @@
-h1 {
-    color: rgb(17, 255, 0);
-}
+:root{
+    --titlesectionPrimrycolor: white;
 
-button:hover {
-    background-color: red;
-    cursor: pointer;
-    font-size: 20px;
 }
 
 #title {
+    color: var(--titlesectionPrimrycolor);
     text-align: center;
     padding-top: 200px;
     background-image: url(../Images/Blur\ mount\ .jpg);
     background-position: center top;
+}
+
+.title-section-button{
+    color: var(--titlesectionPrimrycolor);
+    border: solid var(--titlesectionPrimrycolor) 2.5px;
+    border-radius: 5px;
+    padding: 15px 20px ;
+    background-color: transparent;
 
 }
+.title-section-button:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+
