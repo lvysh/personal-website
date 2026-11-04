@@ -1,7 +1,7 @@
 :root{
     --titlesectionPrimarycolor: rgb(255,255,255);
     --titlesectionSecondarycolor: rgb(103, 121, 131);
-
+    --titlesectionTertiarycolor: rgb(254, 126, 38);
 }
 
 #title {
